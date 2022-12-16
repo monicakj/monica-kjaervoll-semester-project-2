@@ -1,0 +1,59 @@
+// DETAILS
+.details-container {
+        height: 100%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background-color: #f5f5f5;
+
+        img {
+        display: block;
+        width: auto;
+        padding: 2rem;
+        }
+
+        .col-details {
+        padding: 5rem;
+        margin: 2rem;
+        background-color: white;
+        }
+
+        h1 {
+        font-weight: bold;
+        }
+
+        .col-button {
+                width: 50%;
+        }
+
+        // BUTTON
+        .btn-cart {
+        padding: 0.5rem;
+        width:100%;
+        background-color: #000;
+        border: 1px solid #000;
+        color: white;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        }
+
+        .btn-cart:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        transition: 0.5s;
+        }
+
+        .btn-heart {
+        padding: 0.5rem;
+                width: 20%;
+                background-color: white;
+                border: 1px solid #000;
+                color: black;
+                border-radius: 0;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: bold;
+        }
+}

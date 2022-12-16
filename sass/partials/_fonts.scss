@@ -1,0 +1,15 @@
+// FONTS
+$font-heading: "Montserrat", sans-serif bold; 
+$font-paragraph: "Source Sans Pro",
+sans-serif;
+
+p {
+    font-family: $font-paragraph;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-heading;
+}

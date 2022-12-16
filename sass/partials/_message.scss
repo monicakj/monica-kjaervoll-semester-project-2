@@ -1,0 +1,31 @@
+/* MESSAGE */
+.message {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.message.error {
+    border-color: red;
+    background: red;
+    color: white;
+}
+
+.message.warning {
+    border-color: orange;
+    color: white;
+    background: orange;
+}
+
+.message.success {
+    border-color: green;
+    color: white;
+    background: green;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+}

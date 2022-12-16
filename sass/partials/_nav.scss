@@ -1,0 +1,91 @@
+/* NAVBAR */
+.global-container {
+    padding: 0.5rem;
+
+    #logout, #login, a {
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
+}
+
+.nav-highlight {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    
+    p {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    color: black;
+}
+}
+
+.navbar-brand {
+    font-family: $font-heading;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.top {
+    font-size: 12px;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item .cart {
+    color: white;
+}
+
+/* SEARCH */
+.nav-search input[type=text] {
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #000;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    /* border-radius: 5px 0 0 5px; */
+}
+
+.nav-search button {
+    float: left;
+    width: 20%;
+    padding: 0.5rem;
+    background: #f5f5f5;
+    color: black;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-left: none;
+    cursor: pointer;
+    /* border-radius: 0 5px 5px 0; */
+}
+
+.nav-search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+// NAV 
+.btn-cart i, .btn-fav i {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}

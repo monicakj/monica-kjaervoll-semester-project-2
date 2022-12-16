@@ -1,0 +1,68 @@
+// ADD
+.edit-main {
+    padding: 5rem;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+
+    .edit-container {
+        height: 100%;
+        padding: 5rem;
+        background-color: #f5f5f5;
+    }
+
+    h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    label {
+        display: block;
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    form>div {
+        margin-bottom: 1rem;
+    }
+
+    form input,
+    textarea {
+        width: 100%;
+        padding: 0.4rem;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 0.5rem;
+        width: 100%;
+        background-color: #000;
+        border: 1px solid #000;
+        color: white;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        transition: 0.5s;
+    }
+
+    .btn-delete {
+        background: white;
+        color: black;
+    }
+}

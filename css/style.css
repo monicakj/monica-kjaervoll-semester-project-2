@@ -1,0 +1,848 @@
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* NAVBAR */
+.global-container {
+  padding: 0.5rem;
+}
+
+.global-container #logout, .global-container #login, .global-container a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.nav-highlight {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.nav-highlight p {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif bold;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.top {
+  font-size: 12px;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item .cart {
+  color: white;
+}
+
+/* SEARCH */
+.nav-search input[type=text] {
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid #000;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  /* border-radius: 5px 0 0 5px; */
+}
+
+.nav-search button {
+  float: left;
+  width: 20%;
+  padding: 0.5rem;
+  background: #f5f5f5;
+  color: black;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-left: none;
+  cursor: pointer;
+  /* border-radius: 0 5px 5px 0; */
+}
+
+.nav-search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-cart i, .btn-fav i {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* FOOTER */
+.footer-clean {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-clean ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+}
+
+.footer-clean .item.social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-clean .copyright {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+@media (max-width: 767px) {
+  .footer-clean .footer-clean .item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .footer-clean .item.social {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-clean .footer-clean .item.social > a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-clean .footer-clean .item.social > a {
+    margin-top: 10px;
+  }
+}
+
+/* MESSAGE */
+.message {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.message.error {
+  border-color: red;
+  background: red;
+  color: white;
+}
+
+.message.warning {
+  border-color: orange;
+  color: white;
+  background: orange;
+}
+
+.message.success {
+  border-color: green;
+  color: white;
+  background: green;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* LOADER */
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid black;
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.index-main {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.index-main .container-fluid {
+  padding: 0;
+}
+
+.index-main .hero-container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.index-main .hero-container img {
+  width: 100%;
+  height: auto;
+}
+
+.featured-container {
+  margin-top: 50px;
+}
+
+.featured-container h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featured-container .card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+}
+
+.featured-container .product {
+  margin: 1rem;
+  padding: 2rem;
+  background: white;
+  border: 1px solid lightgrey;
+  max-width: 30%;
+  position: relative;
+}
+
+.featured-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.featured-container a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.featured-container .card-title {
+  margin-top: 10px;
+}
+
+.featured-container .card-text {
+  margin-top: 30px;
+}
+
+.featured-container .card-title, .featured-container .card-text {
+  color: black;
+}
+
+.featured-container img {
+  max-width: 100%;
+}
+
+.featured-container .col {
+  margin-bottom: 1rem;
+}
+
+.brands {
+  margin: 50px 0 20px 0;
+}
+
+.brands img {
+  margin: 0 auto;
+  width: 10%;
+}
+
+.contact-main .contact {
+  height: 100%;
+  margin: 5rem 0 5rem 0;
+  background-color: white;
+}
+
+.contact-details {
+  height: 222px;
+  width: 90%;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.contact-details h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-details h2 {
+  margin-top: 80px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.contact-container {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  background-color: white;
+  padding: 35px;
+  color: black;
+  font-size: 18px;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contact-container .contact-container h2 {
+  margin-bottom: 30px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-container input[type="text"],
+.contact-container select, .contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  margin: 6px 0 15px 0;
+  resize: vertical;
+}
+
+.contact-container input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.contact-container input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.contact-container label, .contact-container input, .contact-container textarea {
+  font-size: 14px;
+}
+
+.login-container {
+  padding: 10rem;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.login-container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.login-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-container label {
+  display: block;
+}
+
+.login-container form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 7rem;
+}
+
+.login-container form > div {
+  margin-bottom: 1rem;
+}
+
+.login-container form input {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 14px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.login-container button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+/* PRODUCTS */
+.products-container {
+  margin-top: 5rem;
+  height: 100%;
+  background-color: white;
+  /* SEARCH */
+  /* ICON */
+}
+
+.products-container .products {
+  margin-bottom: 50px;
+}
+
+.products-container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.products-container .card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+}
+
+.products-container .product {
+  margin: 1rem;
+  padding: 2rem;
+  background: white;
+  border: 1px solid lightgrey;
+  max-width: 30%;
+  position: relative;
+}
+
+.products-container a {
+  text-decoration: none;
+}
+
+.products-container a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.products-container .card-title {
+  margin-top: 10px;
+}
+
+.products-container .card-text {
+  margin-top: 30px;
+}
+
+.products-container .card-title, .products-container .card-text {
+  color: black;
+}
+
+.products-container img {
+  max-width: 100%;
+}
+
+.products-container .col {
+  margin-bottom: 1rem;
+}
+
+.products-container .search-product {
+  margin: 20px 0 20px 0;
+  width: 20%;
+}
+
+.products-container .icon {
+  float: right;
+}
+
+.products-container .product i.fa-regular {
+  color: black;
+}
+
+.products-container .product i.fa-solid {
+  color: black;
+}
+
+.products-container button {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: black;
+  border: 1px solid #000;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.products-container button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+.products-container .btn-edit {
+  background-color: white;
+  color: black;
+}
+
+.about-main .about-container {
+  height: 100%;
+  margin: 5rem;
+  background-color: white;
+}
+
+.about-main .about-container .row-top {
+  padding-top: 3rem;
+}
+
+.about-main .about-container .row-bottom {
+  padding-top: 15rem;
+}
+
+.about-main .about-container .col p {
+  width: 90%;
+}
+
+.about-main .about-container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.details-container {
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: #f5f5f5;
+}
+
+.details-container img {
+  display: block;
+  width: auto;
+  padding: 2rem;
+}
+
+.details-container .col-details {
+  padding: 5rem;
+  margin: 2rem;
+  background-color: white;
+}
+
+.details-container h1 {
+  font-weight: bold;
+}
+
+.details-container .col-button {
+  width: 50%;
+}
+
+.details-container .btn-cart {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #000;
+  border: 1px solid #000;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.details-container .btn-cart:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+.details-container .btn-heart {
+  padding: 0.5rem;
+  width: 20%;
+  background-color: white;
+  border: 1px solid #000;
+  color: black;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.add-main {
+  padding: 5rem;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.add-main .add-container {
+  height: 100%;
+  padding: 5rem;
+  background-color: #f5f5f5;
+}
+
+.add-main h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.add-main a {
+  text-decoration: none;
+  color: #333;
+}
+
+.add-main label {
+  display: block;
+}
+
+.add-main form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-main form > div {
+  margin-bottom: 1rem;
+}
+
+.add-main form input,
+.add-main textarea {
+  width: 100%;
+  padding: 0.4rem;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.add-main .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.add-main button {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #000;
+  border: 1px solid #000;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.add-main button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+.cart-main {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  height: 500px;
+}
+
+.cart-main .cart-container {
+  padding: 5rem;
+  background-color: transparent;
+}
+
+.cart-main .cart-container h1 {
+  font-weight: bold;
+}
+
+.cart-main .cart-container .col-md {
+  background-color: #f5f5f5;
+  padding: 5rem;
+}
+
+.cart-main .cart-container .btn-primary {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.cart-main .cart-container .btn-primary:hover {
+  background-color: white;
+  color: black;
+  transform: 0.5s;
+}
+
+.cart-main .cart-container .cart {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  border-radius: 1rem;
+  min-width: 200px;
+  position: relative;
+}
+
+.admin-main .admin-container {
+  height: 100%;
+  padding: 5rem 0 5rem 0;
+  background-color: white;
+}
+
+.admin-main h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.edit-main {
+  padding: 5rem;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+.edit-main .edit-container {
+  height: 100%;
+  padding: 5rem;
+  background-color: #f5f5f5;
+}
+
+.edit-main h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.edit-main a {
+  text-decoration: none;
+  color: #333;
+}
+
+.edit-main label {
+  display: block;
+}
+
+.edit-main form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.edit-main form > div {
+  margin-bottom: 1rem;
+}
+
+.edit-main form input,
+.edit-main textarea {
+  width: 100%;
+  padding: 0.4rem;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.edit-main button {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #000;
+  border: 1px solid #000;
+  color: white;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.edit-main button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s;
+}
+
+.edit-main .btn-delete {
+  background: white;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

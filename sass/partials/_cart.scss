@@ -1,0 +1,47 @@
+// ABOUT
+.cart-main {
+        background-color: #ffffff;
+            background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+            height: 500px;
+
+    .cart-container {
+        padding: 5rem;
+        background-color: transparent;
+
+        h1 {
+            font-weight: bold;
+        }
+
+        .col-md {
+            background-color: #f5f5f5;
+            padding: 5rem;
+        }
+
+        .btn-primary {
+            background-color: black;
+            border: 1px solid black;
+        }
+
+        .btn-primary:hover {
+            background-color: white;
+            color: black;
+            transform: 0.5s;
+        }
+
+        .cart {
+            margin: 1rem;
+            padding: 1rem;
+            background-color: #f5f5f5;
+            border: 1px solid black;
+            border-radius: 1rem;
+            min-width: 200px;
+            position: relative;
+        }
+
+        // .cart i {
+        //     position: absolute;
+        //     right: 10px;
+        //     top: 10px;
+        //     font-size: 30px;
+        // }
+    }}

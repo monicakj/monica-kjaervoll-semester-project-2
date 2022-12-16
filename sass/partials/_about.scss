@@ -1,0 +1,27 @@
+// ABOUT
+.about-main {
+        
+        .about-container {
+        height: 100%;
+        margin: 5rem;
+        background-color: white;
+                        
+        .row-top {
+        padding-top: 3rem;
+        }
+                        
+        .row-bottom {
+        padding-top: 15rem;
+        }
+        
+        .col p {            
+        width: 90%;
+        }
+        
+        h1 {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+
