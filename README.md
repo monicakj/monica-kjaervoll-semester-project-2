@@ -7,7 +7,7 @@ For my Semester Project 2, I developed a commercial website that allows customer
 
 Tech used in this project:
 
-- [Strapi](https://reactjs.org/)
+- [Strapi](https://strapi.io/)
 - [Bootstrap](https://getbootstrap.com)
 
 ## Getting Started
