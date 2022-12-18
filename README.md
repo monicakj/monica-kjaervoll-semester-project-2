@@ -1,9 +1,4 @@
 # Sneaker Lounge | Semester Project 2
-
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
-
 ## Description
 
 For my Semester Project 2, I developed a commercial website that allows customers to easily shop for sneakers online. The site features a user-friendly interface and a wide selection of sneakers from various brands.
